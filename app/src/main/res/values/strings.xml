@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Agora-Android-Tutorial-Kotlin</string>
+
+    <!-- PLEASE KEEP THIS App ID IN SAFE PLACE -->
+    <!-- Get your own App ID at https://dashboard.agora.io/ -->
+    <!-- After you entered the App ID, remove <##> outside of Your App ID -->
+    <string name="agora_app_id">46406bb091ba40499b205c821db054ff</string>
+    <string name="agora_channel">testRtc</string>
+    <string name="agora_access_token">00646406bb091ba40499b205c821db054ffIAC8WRMAAPFCgu/h12db5Vmk/SM+EN0KNTPS5VBOdJF1/rVujXcAAAAAIgBkcFWNpXQcYgQAAQCldBxiAgCldBxiAwCldBxiBACldBxi</string>
+
+</resources>
