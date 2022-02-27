@@ -1,6 +1,7 @@
 package io.agora.tutorials1v1vcall
 
 import android.Manifest
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.PorterDuff
 import android.os.Bundle
@@ -14,6 +15,8 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import io.agora.R
+import io.agora.openvcall.ui.MainActivity
 
 import io.agora.rtc.IRtcEngineEventHandler
 import io.agora.rtc.RtcEngine
@@ -148,6 +151,11 @@ class VideoChatViewActivity : AppCompatActivity() {
          */
         RtcEngine.destroy()
         mRtcEngine = null
+    }
+
+    fun openGroup(view: View) {
+        startActivity(Intent(this, MainActivity::class.java))
+        finish()
     }
 
     fun onLocalVideoMuteClicked(view: View) {
